@@ -1,0 +1,40 @@
+.navbar{
+  display: flex;
+  padding: 20px;
+}
+nav{
+  flex: 1;
+}
+nav ul{
+  display: inline-block;
+  list-style-type: none;
+  margin-left: 300px;
+}
+nav ul li{
+  display: inline-block;
+  margin: 30px;
+  font-family: monospace; 
+  font-size: x-large;
+}
+a{
+  color: gray;
+}
+a:hover{
+  color: rgb(68, 67, 67);
+  text-decoration: none;
+}
+footer{
+  flex: 1;
+  text-align: center;
+}
+footer ul{
+  display: inline-block;
+  list-style-type: none;
+}
+footer ul li{
+  display: inline-block;
+  margin-right: 20px;
+  padding-top: 10%;
+  font-family: monospace;
+  font-size: large;
+}
